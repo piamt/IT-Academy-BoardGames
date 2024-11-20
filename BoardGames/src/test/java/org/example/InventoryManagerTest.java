@@ -1,16 +1,12 @@
 package org.example;
 
-import org.example.categories.Category;
 import org.example.categories.RolCategory;
 import org.example.models.BoardGame;
 import org.example.models.DifficultyLevel;
-import org.junit.jupiter.api.Assertions.*;
-import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class InventoryManagerTest {
 
